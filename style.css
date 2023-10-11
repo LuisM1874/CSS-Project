@@ -14,56 +14,13 @@ body {
     overflow: hidden;
 }
 
-.box-wrapper {
-    height: 95vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.left-column{
-    padding: 10px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    border:black
-
-}
-
-
-.middle-column{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.middle-column div {
-    flex-grow: 1;
-    margin: 8px;
-
-}
-
-.middle-column div+div{
-    margin-top: 8px;
-}
-
-.right-column{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.right-column div{
-    flex-grow: 1;
-    margin: 8px;
-}
-
-.right-column div+div{
-    margin-top: 8px;
+#grid {
+    display: grid;
+    margin-top: 75px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
 .box-outlines{
@@ -72,8 +29,7 @@ body {
 }
 
 #box1 {
-    padding: 10px;
-    border: dashed 3px black
+    
 }
 
 #box2{
@@ -85,9 +41,17 @@ body {
 }
 
 #box4{
-
+height: 200px;
 }
 
 #box5{
+height: 200px;
+}
 
+#box6{
+height: 200px;
+}
+
+#box7{
+height:200px;
 }
