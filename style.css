@@ -16,14 +16,17 @@ body {
 
 #grid-boxes {
     display: grid;
-    margin-top: 75px;
+    margin-top: 40px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
-    column-gap: 50px;
+    column-gap: 40px;
     row-gap: 50px;
 }
 
-
+.box-outlines:hover{
+ box-shadow: 10px 10px 10px aqua;
+ transition: 0.8s;
+}
 
 .box-outlines{
     padding: 8px;
@@ -32,15 +35,11 @@ body {
 }
 
 #box1 {
-    
-}
-
-#box2{
-
-}
-
-#box3{
-
+    border: dashed 3px purple;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+    color: purple;
 }
 
 #box4{
@@ -71,6 +70,13 @@ height:200px;
 
 h2 {
     color: purple;
+    position: relative;
+    margin-top: -25px;
+    text-align: center;
+    border: dashed 3px purple;
+    background-color: #242526;
+    width: 400px;
+    left: 50px;
 }
 
 h3 {
