@@ -92,7 +92,7 @@ h2 {
     position: relative;
     margin-top: -25px;
     text-align: center;
-    border: dashed 3px purple;
+    border: solid 3px purple;
     background-color: #242526;
     width: 400px;
     left: 50px;
