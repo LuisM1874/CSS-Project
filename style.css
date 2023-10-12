@@ -14,7 +14,7 @@ body {
     overflow: hidden;
 }
 
-#grid {
+#grid-boxes {
     display: grid;
     margin-top: 75px;
     grid-template-columns: 1fr 1fr;
@@ -23,9 +23,12 @@ body {
     row-gap: 50px;
 }
 
+
+
 .box-outlines{
     padding: 8px;
-    border: solid 3px black;
+    border: dashed 3px purple;
+    border-radius: 25px;
 }
 
 #box1 {
@@ -54,4 +57,22 @@ height: 200px;
 
 #box7{
 height:200px;
+}
+
+.text-box-text{
+    border-radius: 10px;
+    background-image: linear-gradient(purple, aqua);
+  padding: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  height: 95px;
+
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
 }

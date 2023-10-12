@@ -9,22 +9,87 @@
 </head>    
 
 <body>
- <div id="box1"></div>
-    <div id="grid">
+
+  <div id="box1"></div>
+    <div id="grid-boxes">
        
-        <div class="box-outlines" id="box2"> box 2</div>
+        <div class="box-outlines" id="box2">
+            <h2>Flexbox Row</h2>
+            <h3>Use these three porperties to create a Flexbox row layout.</h3>
+            <p class="text-box-text">
+                . row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                }
+            </p>
+        </div>
 
-        <div class="box-outlines" id="box3"> box 3</div>
+        <div class="box-outlines" id="box3"> 
+            <h2>Flexbox Column</h2>
+            <h3>Use these to create a Flexbox column layout.</h3>
+            <p class="text-box-text">
+                . column {
+                    display: flex;
+                    flex-direction: column
+                }
+            </p>
+        </div>
 
-        <div class="box-outlines" id="box4"> box 4</div>
+        <div class="box-outlines" id="box4"> 
+            <h2>CSS Grid Layout</h2>
+            <h3>Build a 12-column layout using CSS Grid</h3>
+            <p class="text-box-text">
+                .grid {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns:
+                    repeat (12, 1fr);
+                    } 
+            </p>
+        </div>
 
-        <div class="box-outlines" id="box5"> box 5</div>
+        <div class="box-outlines" id="box5"> 
+            <h2>Linear Gradients</h2>
+            <h3>This will create a background linear gradient from top to bottom.</h3>
+            <p class="text-box-text">
+                .linear-gradient-background {
+                    background-image: linear-gradient (
+                    rgba (232, 102, 236, 0.3) 0%, rgba (232, 102, 236, 0.6 ) 100%
+                    ) ;
+                }
+            </p>
+        </div>
             
-        <div class="box-outlines" id="box6"> box 6</div>
+        <div class="box-outlines" id="box6"> 
+            <h2>Box Transition Glow</h2>
+            <h3>Use transition and box shadows to glow on hover.</h3>
+            <p class="text-box-text">
+                . code-card .card-header {
+                    border- radius: 8px;
+                    transition: all 0.5s ease-in-out:
+                    }
+                    code-card: hover,
+                    . code-card: hover .card-header {
+                    box-shadow: inset Opx 0px 8px rgba (232, 102, 236, 1), 0 0 15px rgba (232, 102, 236, 1);
+            </p>
+        </div>
 
-        <div class="box-outlines" id="box7"> box 7</div>
+        <div class="box-outlines" id="box7"> 
+            <h2>Overlay Card with Title Overlay</h2>
+            <h3>Use position properties and negative margins to raise elements higher than their natural starting</h3>
+            <p class="text-box-text">
+                .card-header {
+                    position: relative;
+                    margin-top: -20px;
+                }
+            </p>
+        </div>
 
     </div>
-
+  
+    
+  
+    </div>
 </body>
 </html>
